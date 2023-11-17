@@ -25,25 +25,33 @@ Following Categories of pen test tools are identified for information gathering:
 Footprinting is a part of the reconnaissance process which is used for gathering possible information about a target computer system or network.
 http://www.whois.com/whois website to get detailed information about a domain name information including its owner, its registrar, date of registration, expiry, name server, owner's contact information, etc.
 ## OUTPUT:
-![image](https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/93be2e15-6d5f-4a08-b388-603929d20367)
+
+<img height=30% width=80% src="https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/93be2e15-6d5f-4a08-b388-603929d20367">
+
 ## Finding IP adress:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of saveetha.ac.in.
 ```
 ping saveetha.ac.in
 ```
 ## OUTPUT:
-![image](https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/fcfa6599-0910-44f9-9f80-8675ae08893c)
+
+<img height=30% width=80% src="https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/fcfa6599-0910-44f9-9f80-8675ae08893c">
+
 ## History of the wbsite:
 ## Output:
 https://web.archive.org/
-![image](https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/db356479-b506-4b5c-97e2-8781af87c5de)
+
+<img height=30% width=80% src="https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/db356479-b506-4b5c-97e2-8781af87c5de">
+
 ## Web server Fingerprint:
 Netcat:
 ```
 nc 172.17.52.118 80
 ```
 ## OUTPUT:
-![239422058-2f794aca-900f-4e44-b5e4-9eff031425ab](https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/af9060d2-7fea-4c18-a92b-60e77bbb6ac4)
+
+<img height=30% width=80% src="https://github.com/Vasanthamukilan/InformationGathering/assets/119559694/af9060d2-7fea-4c18-a92b-60e77bbb6ac4">
+
 ## nmap
 ```
 nmap -p 21 -sV --script=banner ftp.vim.org
